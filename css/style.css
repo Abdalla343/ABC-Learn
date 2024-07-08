@@ -1,0 +1,433 @@
+*{
+    font-family:cursive;
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(240, 237, 237);   
+    
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+#Sign{
+
+    background-color: bisque;
+    border-radius: 30px;
+ 
+}
+
+
+
+
+.LOGO{
+    width:50px;
+    height: 30px;
+}
+
+.animation{
+    width: 400px;
+}
+
+
+#Girl{
+width: 440px;
+height: 400px;
+}
+#boxesimage{
+width:100%;
+margin: 0px;
+height: 280px;
+}
+
+
+
+#marginimageindiv{
+    padding: 0px;
+}
+
+.Nav{
+display: flex;
+position:fixed;
+color: rgb(71, 69, 69);
+justify-content :  space-around;
+align-items: center;
+background-color: rgb(219, 121, 121);
+padding: 20px ;
+width: 100%;
+font-style:italic;
+}
+.Navall{
+    display: flex;
+    color: rgb(71, 69, 69);
+    justify-content :  space-around;
+    align-items: center;
+    background-color: rgb(219, 121, 121);
+    padding: 20px ;
+    font-style:italic;
+    }
+
+#j{
+    background-color: rgb(210, 183, 102);
+    width: 100px;
+    border-radius: 20px;
+    height: 40px;
+    text-align: center;
+}
+
+
+
+#ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 50%;
+    text-align: left;
+    align-items: center;
+}
+
+.first{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+
+
+.secound{
+    text-align: center;
+    font-size:medium;
+}
+.third{
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+    margin-top: 50px;
+
+}
+.box{
+    width: 300px;
+    border: 3px solid transparent;
+    background: white;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    margin: 0px 70px 0px 70px ;
+}
+.fifth{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin:50px ;
+}
+
+
+button{
+    background:transparent;
+    border:none;
+}
+
+.Bar1{
+    background:url(Bar\ -\ Copy.png) center bottom;
+    width: 100%;
+    height: 30px;
+    margin: 50px 0px 0px 0px ;
+}
+
+
+#FOOTER{
+    background-image: url(footerimage.jpg);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+
+
+.footerSection{
+    
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    
+    color: rgb(255, 255, 241);
+}
+
+#imagefooter{
+    width:300px;
+    height: 300px;
+}
+
+#lastbottom{
+    background-color: bisque;
+    border-radius: 20px;
+    margin-left: 50px;
+    height: 40px;
+    width: 200px;
+}
+
+.footerList{
+    color: rgb(255, 255, 241);
+    text-align: center;
+}
+#footerList{
+    color: rgb(229, 229, 199);
+}
+/* #################################################  sign page*/ 
+body{
+    background-color: rgb(230, 226, 221);
+}
+.formcontener {
+    background-color: rgb(225, 221, 221);
+    border: 1px solid white;
+    border-radius: 30px;
+    width: 30%;
+    padding: 35px;
+    margin: 30px auto;
+    box-shadow: 0 1px 10px #000;
+}
+
+
+ .width{ 
+      width: 100% ;
+      height: 30px;
+      border-radius: 5px;
+      border: white;
+      padding: 5px;
+      margin-top: 10px;
+    
+}
+.width1{
+    width: 100% ;
+    height: 90px;
+    border-radius: 5px;
+    border: white;
+    margin-top: 10px;
+}
+
+
+.button11{
+    width: 100%;
+    height: 35px; 
+    color: white;
+    background-color: chocolate;
+    margin-top: 40px;   
+    margin-right: 200px;
+    border: white;
+    border-radius: 5px;
+    transition: 0.4s ease;
+}
+.button11:hover{
+    background-color:#ff6347;
+        transform: scale(1.2);
+        
+}
+
+#img1{
+    width: 40%;
+    margin-left: 80px;  
+}
+#img-1{
+    width: 50%;
+    margin-left:80px ;
+    
+
+}
+#img-1 img{
+    width:200%;
+}
+/* ####################################################  about us*/
+.au{
+
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: "Arial",sans-serif;
+    }
+    .mo{
+    
+        background-color: #f8f8f8;
+        overflow: hidden;
+    
+    }
+    
+    .heading h1{
+    color: #ff6347;
+    font-size: 55px;
+    text-align: center;
+    margin-top: 35;
+    }
+    .container{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        margin: 65px auto;
+    }
+    
+    .mo-content{
+        flex:1;
+        width:600px;
+        margin:0px 25px;
+        animation: fadeInUp 2s ease;
+    }
+    .mo-content h2{
+    font-size: 38px;
+    margin-bottom: 20px;
+    color: #333;
+    }
+    .mo-content p{
+        font-size: 24px;
+        line-height: 1.5;
+        margin-bottom: 40px;
+        color:#666
+    }
+    .mo-content button{
+        display: inline-block;
+       background-color:chocolate;
+        color: #fff;
+        padding:15px 24px;
+        border-radius: 5px;
+        font: size 20px;
+        border:none;
+        cursor: pointer;
+        transition: 0.4s ease;
+    }
+    .mo-content button:hover{
+        background-color:#ff6347;
+        transform: scale(1.3);
+    }
+    
+    .mo-image{
+        flex:1;
+        width: 600px;
+        margin:auto ;
+        animation: fadeInRight 2s ease;
+    }
+    .imga{
+        width: 100%;
+        height: auto;
+        border-radius: 30px;
+    }
+    @keyframes fadeInUp {
+        0%{
+            opacity: 0;
+            transform: translateY(50px);
+        }
+        100%{
+    
+            opacity: 1;
+            transform: translateY(0px);
+        }
+    }
+    
+    @keyframes fadeInRight {
+        0%{
+            opacity: 0;
+            transform: translatex(-50px);
+        }
+        100%{
+            opacity: 1;
+            transform: translatex(0px);
+        }
+    }
+/* ############################################### number page */
+.numbername{
+    background-color:darksalmon;
+    padding: 20px;
+    text-align: center;
+    font-size: xx-large;
+}
+.numbericon{
+    width: 5%;
+    margin:20px; 
+}
+.numbernn{
+    width: 5%;
+    margin-top: 45px;
+    margin-right: 30px;
+    text-align: center;
+    color:sienna ;
+}
+.Bar{
+    background:url(Bar\ -\ Copy.png) center bottom;
+    width: 100%;
+    height: 50px;
+}
+/* ################################################# */
+.words{
+    display: flex;
+    width:100% ;
+}
+.wordsicon{
+   width:20% ; 
+   margin: 80px;
+}
+.wordsss{
+    margin-top: 110px;
+    color:sienna ;
+}
+/* ################################################## alfabt */
+.A{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items:center;
+}
+.imageLetters{
+
+width: 300px;
+height: 300px;
+
+
+}
+
+
+.Alpha_Audio{
+    color: red;
+display: flex; 
+justify-content: center;
+
+}
+.Row{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    animation: appear 0.5s linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.column{
+    text-align: center;
+}
+.bodyLetterPage{
+    background:url(./Background.png);
+    background-size:cover;
+}
+
+      
+
+
+
+@keyframes appear{
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
