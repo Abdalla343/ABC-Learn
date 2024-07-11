@@ -431,3 +431,14 @@ justify-content: center;
         scale: 1;
     }
 }
+
+
+/* page store */
+#cards{
+    width:500px;
+    text-align: center;
+
+    img{
+        width:60%;
+    }
+}
