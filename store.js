@@ -24,8 +24,6 @@ function getProduct(){
 }
 var product = getProduct();
 
-
-
 for(var i = 0;i<product.length;i++){
     draw(product[i]);
 }
@@ -37,27 +35,43 @@ function draw(data){
     var title=document.createElement("h3");
     var des=document.createElement("p");
     var price = document.createElement("h4");
-    var but = document.createElement("button");
-    
-
-    
-    
+    var but = document.createElement('button');
+   
+    div.classList="card";
     img.src=data.image;
     title.innerText=data.title;
     des.innerText=data.discribtion;
     price.innerText=data.price;
-    div.style.border="3px solid black";
-    but.innerText="Add to cart"
+    div.style.border="1px solid black";
+    but.innerText="Add to cart";
 
     but.onclick=function(){
         arrOfCards.push(data);
         localStorage.setItem("Cards",JSON.stringify(arrOfCards));
     }
-
-
     div.append(img,title,des,price,but);
     var Div = document.getElementById("cards");
     Div.appendChild(div);
 }
 
-
+function search(){
+    var flag=0;
+    var text = document.getElementById("searchProduct").value;
+    var div= document.getElementById("cards");
+    div.innerHTML='';
+    for(var i =0 ; i<product.length;i++){
+        
+        if(product[i].title.includes(text)){
+            draw(product[i]);
+            flag=1;
+    }
+ 
+}
+if(flag==0){
+    var p = document.createElement("h4");
+            p.innerText="NO Result"
+            div.append(p);
+            var Div = document.getElementById("car  ds");
+            Div.appendChild(div);
+}
+}

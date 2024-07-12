@@ -5,12 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/css/style.css">
+    
 </head>
-
-
-
-
-<body>
+<body onload="getcart()">
     <div class="Navall">
         <div>  
             <div class="animation"> <img class="LOGO" src="images/abc_4290563.png"> </div>
@@ -25,21 +22,14 @@
     </div>
 
 
+    <div class="BigDiv">
+        <div class="smallDiv">
+                    <div id="prod"></div>
+                    <div class="items"><p id="NumOfitems"></p></div>
+        </div>
 
-    <div class="divStore">
-    <div class="searchBar"><input type="text" id="searchProduct"><button onclick="search()" >Search</button></div>
-    
-    
-    <div id="cards"></div>
-    
     </div>
+    
 
-
-
-
-
-</body><script src="store.js"></script>
-
-
-
+</body><script src="cart.js"></script>
 </html>

@@ -130,10 +130,10 @@ font-style:italic;
 }
 
 
-button{
+/* button{
     background:transparent;
     border:none;
-}
+} */
 
 .Bar1{
     background:url(Bar\ -\ Copy.png) center bottom;
@@ -434,11 +434,79 @@ justify-content: center;
 
 
 /* page store */
+.divStore{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.divCart{
+    
+    display: flex;
+    justify-content: center;
+
+}
+
+
 #cards{
     width:500px;
     text-align: center;
+}
+#Cart{
+    img{
+        width:20%;
+    }
+    width:70%;
+    text-align: center;
+}
 
+
+
+.searchBar{
+    margin: 10px;
+}
+.card{
     img{
         width:60%;
     }
+    margin: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #f8f8f8;
+    box-shadow:#000;
+}
+/* test  */
+
+.BigDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.smallDiv{
+    width: 80%;
+    display: flex;
+}
+#prod{
+    img{
+        width:20%;
+    }
+
+    width: 70%;
+    padding: 10px;
+    margin: 5px;
+    background-color:#c6c6c6;
+    border:2px solid #333;
+    border-radius: 20px;
+    
+}
+.items{
+    display: flex;
+    width: 30%;
+    padding: 10px;
+    margin: 5px;
+    background-color:#c6c6c6;
+    border:2px solid #333;
+    border-radius: 20px;
+    height: 400px;
 }
