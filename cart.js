@@ -26,10 +26,8 @@ function draw(data){
     price.innerText=data.price;
     but.innerText="remove";
     
-    //Dosen't work 
     but.onclick=function(){
         getData.splice(getData,1);
-        console.log(getData);
         localStorage.setItem("Cards",JSON.stringify(getData));
         div.innerHTML="";
         document.getElementById("NumOfitems").innerHTML = `<div><h4>items (${getData.length})</h3></div>`;
