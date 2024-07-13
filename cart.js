@@ -27,11 +27,11 @@ function draw(data){
     but.innerText="remove";
     
     but.onclick=function(){
-        getData.splice(getData,1);
-        localStorage.setItem("Cards",JSON.stringify(getData));
+        getData.splice(data,1);
         div.innerHTML="";
+        localStorage.setItem("Cards",JSON.stringify(getData));
         document.getElementById("NumOfitems").innerHTML = `<div><h4>items (${getData.length})</h3></div>`;
-
+        
     }
  
     div.append(img,title,des,price,but);

@@ -450,13 +450,11 @@ justify-content: center;
 
 
 #cards{
-    width:500px;
+    width:80%;
     text-align: center;
 }
 #Cart{
-    img{
-        width:20%;
-    }
+    
     width:70%;
     text-align: center;
 }

@@ -27,10 +27,22 @@
 
 
     <div class="divStore">
+    
     <div class="searchBar"><input type="text" id="searchProduct"><button onclick="search()" >Search</button></div>
     
     
-    <div id="cards"></div>
+    <div id="cards" style="display:flex;justify-content:space-around;">
+        <div id="filter">
+            <input class="fi" type="checkbox" id="games" value="games">
+            <label for="games">Games</label><br>
+
+            <input class="fi" type="checkbox" id="Books" value="books">
+            <label for="Books">Books</label><br>
+
+            <input class="fi" type="checkbox" id="Stories" value="stories">
+            <label for="Stories">Stories</label><br>
+        </div>
+    </div>
     
     </div>
 
