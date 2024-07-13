@@ -435,12 +435,27 @@ justify-content: center;
 
 /* page store */
 .divStore{
-    width: 100%;
+    /* width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+
+    
+        display: grid;
+        grid-template-areas:
+          'header header header header header header'
+          'menu main main main right right'
+          'menu footer footer footer footer footer';
+        gap: 10px;
+        padding: 10px;
+    
 }
+
+
+
+
+
 .divCart{
     
     display: flex;
@@ -462,7 +477,8 @@ justify-content: center;
 
 
 .searchBar{
-    margin: 10px;
+    grid-area: header; 
+    
 }
 .card{
     img{
