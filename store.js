@@ -128,6 +128,9 @@ function search() {
   }
 }
 
+
+
+
 function game(){
     var idcheck = document.getElementById("games");
     if(idcheck.checked==true){
@@ -137,6 +140,8 @@ function game(){
         if(product[i].type=="games")
             draw(product[i])
         }
+        
+       
     }
         else{
         var div = document.getElementById("cards");
@@ -144,6 +149,7 @@ function game(){
         for(var i=0;i<product.length;i++)
             draw(product[i])
         }
+
     }
 function story(){
     var idcheck = document.getElementById("Stories");
@@ -184,5 +190,44 @@ function book(){
     }
 }
 
+function checkbox(){
+var game1 = document.getElementById("games")
+var Story1 = document.getElementById("Stories")
+var book1 = document.getElementById("Books")
+var div = document.getElementById("cards");
+
+div.innerHTML="";
+  if(game1.checked==true){
+    var div = document.getElementById("cards");
+    for(var i =0 ; i<product.length;i++){
+        if(product[i].type=="games")
+            draw(product[i]);
+      }
+}
+//---------
+  if(Story1.checked==true){
+  var div = document.getElementById("cards");
+  for(var i =0 ; i<product.length;i++){
+    if(product[i].type=="story")
+        draw(product[i]);
+}
+}
+//-----------
+if(book1.checked==true){
+  var div = document.getElementById("cards");
+  for(var i =0 ; i<product.length;i++){
+      if(product[i].type=="book")
+          draw(product[i]);
+  }
+  }
 
 
+   if(game1.checked==false && Story1.checked==false && book1.checked==false){
+    for(var i=0 ; i<product.length;i++) 
+    draw(product[i]);
+  }
+
+
+
+
+}

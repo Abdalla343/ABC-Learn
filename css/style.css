@@ -433,7 +433,7 @@ justify-content: center;
 }
 
 
-/* page store */
+/* ---------------------------------------page store -----------------------------------------------------------------*/
 .divStore{
     /* width: 100%;
     display: flex;
@@ -444,9 +444,9 @@ justify-content: center;
     
         display: grid;
         grid-template-areas:
-          'header header header header header header'
-          'menu main main main right right'
-          'menu footer footer footer footer footer';
+          'header header header header '
+          'menu main main main '
+          'menu main main main ';
         gap: 10px;
         padding: 10px;
     
@@ -467,18 +467,21 @@ justify-content: center;
 #cards{
     width:80%;
     text-align: center;
+    grid-area: main;
 }
+
 #Cart{
     
     width:70%;
     text-align: center;
+    
 }
-
-
 
 .searchBar{
     grid-area: header; 
-    
+}
+#filter{
+    grid-area: menu;
 }
 .card{
     img{

@@ -31,16 +31,14 @@
     <div class="searchBar"><input type="text" id="searchProduct"><button onclick="search()" >Search</button></div>
     
     <div id="filter">
-        <!-- <input class="fi" type="checkbox" id="All" value="All" onchange="All()">
-        <label for="games">All</label><br> -->
-
-        <input class="fi" type="checkbox" id="games" value="games" onchange="game()">
+        
+        <input class="fi" type="checkbox" id="games" value="games" onchange="checkbox()">
         <label for="games">Games</label><br>
 
-        <input class="fi" type="checkbox" id="Books" value="books" onchange="book()">
+        <input class="fi" type="checkbox" id="Books" value="books" onchange="checkbox()">
         <label for="Books">Books</label><br>
 
-        <input class="fi" type="checkbox" id="Stories" value="stories" onchange="story()">
+        <input class="fi" type="checkbox" id="Stories" value="stories" onchange="checkbox()">
         <label for="Stories">Stories</label><br>
     </div>  
     <div id="cards" style="display:grid;grid-template-columns:auto auto ;  flex-wrap:wrap;  width:70%;  "></div>
